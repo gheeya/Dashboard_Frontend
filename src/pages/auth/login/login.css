@@ -1,0 +1,50 @@
+.login-page {
+    height: 100%;
+    background-color: rgb(238,238,238);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    justify-content: center;
+    gap : 20px;
+}
+
+.login-input-field{
+    height: 40px;
+    border-radius: 15px;
+    border: 2px solid gray;
+}
+
+.login-form-header {
+    text-align: center;
+    font-size: 30pt;
+    border-bottom: 2px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.login-btn-normal{
+    height: 50px;
+    background-color: orange;
+    border-radius: 15px;
+    border: 3px solid gray;
+}
+
+.login-btn-fb{
+    height: 50px;
+    background-color: skyblue;
+    border-radius: 15px;
+    border: 3px solid gray;
+    font-weight: bold;
+}
+
+.login-btn-fb:hover,
+.login-btn-normal:hover {
+    opacity: 0.8;
+}

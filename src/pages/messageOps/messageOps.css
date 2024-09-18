@@ -1,0 +1,6 @@
+.message-ops-container {
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    background-color: rgb(238, 238, 238);
+    gap: 10px;
+}

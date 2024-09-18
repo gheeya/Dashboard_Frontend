@@ -1,0 +1,28 @@
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding : 10px;
+}
+
+.contact-form-input {
+    border-radius: 7px;
+    height: 25px;
+    border: 1px solid black;
+    font-style: italic;
+}
+
+.addcontact-button {
+    border: none;
+    background-color: #7B6CC0;
+    border-radius: 7px;
+    font-size: 14pt;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding : 5px
+}
+
+.addcontact-button:hover {
+    background-color: #6a5aaf;
+}

@@ -1,0 +1,51 @@
+.import-csv-form-container {
+    /* position: absolute;
+    top : 10px;
+    left : -60px; */
+    background-color: white;
+    padding: 10px;
+    height: 450px;
+    width: 300px;
+}
+
+.import-csv-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap : 20px;
+}
+
+.import-csv-label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:20px;
+    padding: 10px;
+}
+
+.import-csv-button {
+    border: none;
+    background-color: green;
+    border-radius: 7px;
+    font-size: 14pt;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.import-csv-button:hover {
+    background-color: rgba(0,128,0,0.8);
+}
+
+.import-csv-label:hover {
+    background-color: rgba(128, 128, 128, 0.434);
+    border-radius: 25px;
+}
+
+.import-info-alert {
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    background-color: rgba(255, 255, 0, 0.261);
+    border : 2px solid rgb(176, 176, 8)
+}

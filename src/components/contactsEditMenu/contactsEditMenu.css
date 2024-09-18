@@ -1,0 +1,43 @@
+.contacts-edit-container {
+    background-color: white;
+    padding: 10px;
+    position: relative;
+}
+
+.contacts-edit-menu-list {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.contacts-edit-menu-list-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.contacts-edit-menu-list-item:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.contacts-edit-menu-download-button {
+    border-radius: 15px;
+    background-color: #C5F3C9;
+    color: #2A642C;
+    border: 1px solid #2A642C;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.contacts-edit-menu-download-button:hover{
+    background-color: #C5F3C930;
+
+}
+

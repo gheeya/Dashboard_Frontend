@@ -1,0 +1,20 @@
+.message-selector-container {
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    grid-row: 1 / 2;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.message-component-container {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.message-numbers-selector {
+    background-color: red;
+    border: 1px solid black;
+}

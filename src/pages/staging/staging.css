@@ -1,0 +1,14 @@
+.stage-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 1fr;
+}
+
+.outlet-container {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 10px;
+    background-color: rgb(238,238,238);
+}
+

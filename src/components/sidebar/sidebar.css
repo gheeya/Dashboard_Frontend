@@ -1,0 +1,40 @@
+.sidebar-container {
+    height: 100%;
+    background-color: #202453;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    padding-right: 25px;
+}
+
+.sidebar-list {
+    list-style-type: none;
+}
+
+.sidebar-list-image {
+    height: 40px;
+    width: 140px;
+}
+
+.sidebar-list-item {
+    margin-top: 50px;
+}
+
+.sidebar-link {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar-link-icon {
+    color: orange;
+}
+
+.sidebar-link-container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+
+

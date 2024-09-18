@@ -1,0 +1,6 @@
+.contactops-container {
+    height: 100%;
+    display: grid;
+    background-color: rgb(238,238,238);
+    position: relative;
+}
